@@ -13,7 +13,7 @@
     <main >
         <p>TechSolutions is a dynamic platform offering a wide range of digital services tailored to meet your personal and business needs. From website development and graphic design to digital marketing and IT support, we aim to deliver top-notch solutions that boost your online presence. Our team of experts ensures quality, creativity, and innovation in every project. We strive to make technology work for you in the simplest and most effective way possible. Explore our services and grow with us!</p>
         <hr>
-        <img src="https://static.vecteezy.com/system/resources/previews/017/075/865/non_2x/man-use-laptop-with-cloud-computing-diagram-show-on-hand-cloud-technology-data-storage-networking-and-internet-service-concept-free-photo.jpg" alt="tech img" width="1500" height="200">
+        <img src="https://static.vecteezy.com/system/resources/previews/017/075/865/non_2x/man-use-laptop-with-cloud-computing-diagram-show-on-hand-cloud-technology-data-storage-networking-and-internet-service-concept-free-photo.jpg" alt="tech img" width="150" height="200">
         <hr>
         <h1>Our Services</h1>
         <ul>
@@ -60,18 +60,21 @@
         <hr>
         <br><br>
         <form action="about.html">
-            <label for="">Name</label>
-            <input type="text">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
             <br><br>
-            <label for="">Email</label>
-            <input type="email" name="" id="">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
             <br><br>
-            <label for="">Phone</label>
-            <input type="text" name="" id="">
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
             <br><br>
-            <label for="">Get in Touch-->></label>
-            <input type="submit" name="" id="">
-        </form>
+
+            <label for="submit">Get in Touch ➝</label>
+            <input type="submit" value="Submit" id="submit">
+       </form>
         <hr>
     </main>
     <footer>
